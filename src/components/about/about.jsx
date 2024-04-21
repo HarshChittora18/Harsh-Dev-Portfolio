@@ -46,7 +46,9 @@ function About() {
               </button>
             </a>
             <div>
+            <Link to="https://www.linkedin.com/in/harshchittora">
               <img src={linkedIn} alt="linkedIN" />
+              </Link>
             </div>
             <div>
               <Link to="https://github.com/HarshChittora18">
