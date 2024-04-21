@@ -1,0 +1,160 @@
+.about-page-holder {
+  font-family: Manrope;
+}
+
+.right-section-button-holder > div {
+  background-color: #222222;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 7px;
+  display: flex;
+  cursor: pointer;
+}
+
+.right-section-button-holder {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.main-about-holder-div > h1,
+.main-about-holder-div > h4 {
+  margin: 0;
+  font-size: 4rem;
+  color: white;
+  min-width: max-content;
+}
+.about-me-right-section > h4 {
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.about-me-right-section > p {
+  color: #c7c7c7;
+  font-size: medium;
+  text-align: left;
+}
+
+.main-about-holder-div {
+  display: flex;
+  gap: 10rem;
+  padding: 2rem 5rem;
+}
+.capabilites-holder {
+  /* border-top: 1px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      rgba(211, 211, 211, 0.578) 10%,
+      rgba(211, 211, 211, 0.578) 90%,
+      transparent 90%
+    )
+    1; */
+
+  border-top: 1px solid rgba(211, 211, 211, 0.578);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.578);
+  /* border-bottom: 1px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      rgba(211, 211, 211, 0.578) 10%,
+      rgba(211, 211, 211, 0.578) 90%,
+      transparent 90%
+    )
+    1; */
+}
+.captibilty-holder {
+  width: max-content;
+  padding: 10px 20px;
+  border: 1.5px solid #484848;
+  border-radius: 30px;
+  font-size: smaller;
+}
+
+.about-right-section > p {
+  color: #c7c7c7;
+  font-size: medium;
+  text-align: left;
+  margin: 1rem 0 2rem;
+}
+
+.capabilites-list-holder {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.item-header span:nth-child(1) {
+  font-size: x-large;
+  text-align: left;
+}
+
+.item-header span:nth-child(2) {
+  color: #c7c7c7;
+  font-size: large;
+}
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+}
+
+.experience-item-holder > span {
+  color: #d3e97a;
+  font-size: large;
+}
+
+.experience-item-holder {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.experience-item-holder > p {
+  font-size: medium;
+  color: #c7c7c7;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.experience-holder {
+  /* border-top: 1px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      rgba(211, 211, 211, 0.578) 10%,
+      rgba(211, 211, 211, 0.578) 90%,
+      transparent 90%
+    )
+    1; */
+
+  border-top: 1px solid rgba(211, 211, 211, 0.578);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.578);
+  /* border-bottom: 1px solid transparent;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      rgba(211, 211, 211, 0.578) 10%,
+      rgba(211, 211, 211, 0.578) 90%,
+      transparent 90%
+    )
+    1; */
+}
+
+@media screen and (max-width: 800px) {
+  .main-about-holder-div {
+    padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+  }
+  .item-header {
+    flex-direction: column;
+  }
+  .about-me-right-section > h4,
+  .experience-item-holder > p {
+    text-align: center;
+  }
+}

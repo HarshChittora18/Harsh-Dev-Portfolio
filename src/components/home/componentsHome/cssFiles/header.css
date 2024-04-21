@@ -1,0 +1,45 @@
+.navbar-header-holder {
+  width: fit-content;
+}
+
+.navbar-header-holder > ul {
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.header-div-holder {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.name-header-holder {
+  font-size: xx-large;
+}
+
+.navbar-header-holder > ul > li {
+  list-style: none;
+  width: fit-content;
+  cursor: pointer;
+  position: relative;
+}
+.navbar-header-holder > ul > li:before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background-color: #d3e97a;
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.navbar-header-holder > ul > li:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}

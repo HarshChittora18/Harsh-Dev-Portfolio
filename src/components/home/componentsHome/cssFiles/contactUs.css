@@ -1,0 +1,130 @@
+.contact-us-holder {
+  padding: 2rem 5rem;
+  text-align: left;
+  border-top: 1px solid rgba(211, 211, 211, 0.578);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.578);
+  display: flex;
+  gap: 15rem;
+}
+
+.contact-us-left-holder > h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+  text-align: left;
+}
+
+.contact-us-left-holder {
+  width: max-content;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-right-form-holder {
+  flex: 1 1 auto;
+}
+
+.contact-us-logo-holder {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-us-logo-holder > img {
+  cursor: pointer;
+}
+.contact-us-left-holder > div > p {
+  font-size: small;
+  color: #c7c7c7;
+  margin: 10px 0px;
+}
+
+.clicks-contact-us {
+  color: #c7c7c7;
+  text-decoration: underline;
+  text-decoration-color: #d3e97a;
+  cursor: pointer;
+  position: relative;
+}
+
+.contact-us-form-row > input,
+.contact-us-form-row > textarea {
+  outline: none;
+  border: none;
+  background-color: #1a1a1a;
+  color: #ffffffbe;
+  height: 2.5rem;
+  padding: 0 0 0 1rem;
+  border-radius: 5px;
+}
+
+.contact-us-form-row > label {
+  color: #c7c7c7;
+  font-size: small;
+}
+
+.contact-us-form-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.contact-us-form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  position: relative;
+}
+
+.contact-us-form-button > button {
+  border: none;
+  background-color: #d3e97a;
+  color: #1a1a1a;
+  font-family: Manrope;
+  font-weight: 600;
+  border-radius: 7px;
+  padding: 4px 20px;
+  font-size: small;
+  cursor: pointer;
+}
+
+span.error-message-contact-us-form {
+  position: absolute;
+  color: #ff0000c7;
+  right: 0;
+  font-size: smaller;
+  bottom: -20px;
+}
+
+.clicks-contact-us:before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 25px;
+  transform: scaleX(0);
+  background-color: #d3e97a;
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.clicks-contact-us:hover {
+  text-decoration: none;
+}
+
+.clicks-contact-us:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-us-holder {
+    padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+  }
+}

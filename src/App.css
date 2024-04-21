@@ -1,0 +1,25 @@
+.App {
+  background-color: #0a0a0a;
+  color: white;
+  text-align: center;
+}
+
+.heading-font-portfolio {
+  font-family: "Bebas Neue", sans-serif;
+  color: #c7c7c7;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sub-font-portfolio {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
