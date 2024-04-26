@@ -30,9 +30,9 @@ function MainIntro({ setPageNavigate }) {
             A India-based Developer X Designer with experience in web design, brand identity and product design.
           </span>
           <div className="left-content-buttons-holder">
-            <button className="contact-me-main-intro-button">
+            <a href="mailto:harshchittora18@gmail.com" className="contact-me-main-intro-button"style={{ color: "black" }}>
               CONTACT ME <img src={backArrow} alt="back-arrow" width="25px" />
-            </button>
+            </a>
             <div>
             <Link
                 to="https://www.linkedin.com/in/harshchittora"
@@ -58,8 +58,8 @@ function MainIntro({ setPageNavigate }) {
     width="325px"
     style={{
       borderRadius: "50%",
-      width: "500px",
-      height: "500px",
+      width: "380px",
+      height: "380px",
       animation: "pulseAnimation 2s ease-in-out infinite",
     }}
   />
