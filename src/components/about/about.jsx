@@ -4,7 +4,7 @@ import gitHub from "../../assets/mainIntro-logos/bxl-github.svg.svg";
 import backArrow from "../../assets/mainIntro-logos/arrow-right-top-svgrepo-com.svg";
 import linkedIn from "../../assets/mainIntro-logos/bxl-linkedin.svg.svg";
 // import aboutBg from "../../assets/about/bg.svg";
-import resume from "../../assets/HarshChittoraCV.pdf";
+import resume from "../../assets/HarshC_Resume.pdf";
 import { Link } from "react-router-dom";
 import ContactUs from "../home/componentsHome/contactUs";
 import experienceData from "../experinceData";
@@ -37,7 +37,7 @@ function About() {
           <div className="right-section-button-holder">
             <a
               href={resume}
-              download="HarshChittoraCV"
+              download="HarshC_Resume"
               style={{ textDecoration: "none" }}
             >
               <button className="contact-me-main-intro-button">

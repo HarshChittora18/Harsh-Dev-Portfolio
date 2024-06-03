@@ -3,7 +3,7 @@ import "./cssFiles/contactUs.css";
 import linkedIn from "../../../assets/contact_us_logos/bxl-linkedin.svg.svg";
 import github from "../../../assets/contact_us_logos/bxl-github.svg.svg";
 import twitter from "../../../assets/contact_us_logos/bxl-twitter.svg.svg";
-import resume from "../../../assets/HarshChittoraCV.pdf";
+import resume from "../../../assets/HarshC_Resume.pdf";
 import { Field, Form, Formik } from "formik";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -55,7 +55,7 @@ function ContactUs() {
             For more info, here's my{" "}
             <a
               href={resume}
-              download="HarshChittoraCV"
+              download="HarshC_Resume"
               className="clicks-contact-us"
             >
               resume
